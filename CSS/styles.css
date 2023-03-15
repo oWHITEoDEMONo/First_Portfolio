@@ -1,0 +1,589 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** FONTS ********************************/
+
+/* 
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; 
+*/
+
+
+
+/******************************** COLORS ********************************/
+
+/* #7cc5b9
+rgb(158, 222, 201)
+#398d82
+#E4F9F5
+#1c7733
+#1d3222
+#26422c */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** WHOLE BODY ********************************/
+
+body{
+    background-color: #7cc5b9;
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** SEPERATOR Horizontal Rule ******************/
+
+.sep{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style:none;
+    border-bottom-style:dotted;
+    width:80px;
+    border-width:8px;
+    border-color:rgb(158, 222, 201)
+}
+
+/****************** SEPERATOR Horizontal Rule END ******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** NAVBAR ********************************/
+
+
+/****************** TAG Selector ******************/
+
+             /*  NO TAG SELECTOR USED  */
+
+/****************** ID Selector ******************/
+
+
+/****************** CLASS Selector ******************/
+
+
+.nav_bar{
+    position: fixed;
+    background-color: #398d82;
+    height: 100px;
+    width: 100%;
+}
+
+.nav_img_logo{
+    display: inline;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 120px;
+}
+
+.nav_ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    display: inline;
+    margin-top: 40px;
+    margin-left: 900px;
+    text-decoration: none;
+    color: #7cc5b9;
+    font-size: larger;
+}
+.home:hover{
+    color: #E4F9F5;
+}
+.skill{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    display: inline;
+    margin-top: 40px;
+    margin-left: 1000px;
+    text-decoration: none;
+    color: #7cc5b9;
+    font-size: larger;
+}
+.skill:hover{
+    color: #E4F9F5;
+}
+.project{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    display: inline;
+    margin-top: 40px;
+    margin-left: 1100px;
+    text-decoration: none;
+    color: #7cc5b9;
+    font-size: larger;
+}
+.project:hover{
+    color: #E4F9F5;
+}
+
+
+/******************************** NAVBAR END ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** HOME ********************************/
+
+
+/****************** TAG Selector ******************/
+
+             /*  NO TAG SELECTOR USED  */
+
+/****************** ID Selector ******************/
+
+             /*  NO ID SELECTOR USED  */
+
+/****************** CLASS Selector ******************/
+
+.top_container{
+    display: inline-block;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.cloud_1{
+    display: inline;
+    margin-left: 580px;
+}
+
+.cloud_2{
+    display: block;
+    margin-left: 350px;
+}
+
+.title{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #1c7733;
+}
+
+.title_description{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #26422c;
+}
+
+
+/******************************** HOME END ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** PROFILE ********************************/
+
+
+/****************** TAG Selector ******************/
+
+             /*  NO TAG SELECTOR USED  */
+
+/****************** ID Selector ******************/
+
+             /*  NO ID SELECTOR USED  */
+
+/****************** CLASS Selector ******************/
+
+.middle_container{
+    text-align: center;
+}
+
+.profile_title{
+    color :#1c7733;
+}
+
+.profile_description{
+    display: inline-block;
+    width: 60%;
+    line-height: 2;
+    color: #26422c;
+}
+
+
+/******************************** ABOUT END ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** SKILLS ********************************/
+
+
+/****************** TAG Selector ******************/
+
+             /*  NO TAG SELECTOR USED  */
+
+/****************** ID Selector ******************/
+
+             /*  NO ID SELECTOR USED  */
+
+/****************** CLASS Selector ******************/
+
+
+.skill_title{
+    color: #1c7733;
+}
+
+.skill_row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill_img_1{
+    width: 25%;
+    border-radius: 600px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill_img_2{
+    width: 25%;
+    float: right;
+}
+
+.skill_name_1{
+    color: #1c7733;
+}
+.skill_name_2{
+    color: #1c7733;
+}
+.skill_description_1{
+    color: #26422c;
+}
+.skill_description_2{
+    color: #26422c;
+}
+
+
+/******************************** SKILLS END ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** CONTACT ********************************/
+
+
+/****************** TAG Selector ******************/
+
+             /*  NO TAG SELECTOR USED  */
+
+/****************** ID Selector ******************/
+
+             /*  NO ID SELECTOR USED  */
+
+/****************** CLASS Selector ******************/
+
+.contact_me{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.contact_title{
+    color: #1c7733;
+}
+
+.contact_subtitle{
+    color: #1c7733;
+}
+
+.contact_description{
+    color: #26422c;
+    margin-bottom: 50px;
+}
+
+.btn{
+    background-color: #2b4d48;
+    padding: 8px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #7cc5b9;
+}
+
+.btn:hover{
+    color: #E4F9F5;
+    background-color: #26422c;
+}
+
+.links{
+    margin-top: 60px;
+    text-align: center;
+}
+
+#linkedin{
+    font-size: 40px;
+    display: inline-block;
+    color: #398d82;
+    width: 90px;
+}
+#github{
+    font-size: 40px;
+    display: inline-block;
+    color: #398d82;
+    width: 90px;
+}
+#skype{
+    font-size: 40px;
+    display: inline-block;
+    color: #398d82;
+    width: 90px;
+}
+
+#linkedin:hover{
+    color:#26422c;
+}
+#github:hover{
+    color:#26422c;
+}
+#skype:hover{
+    color:#26422c;
+}
+
+
+.copyright{
+    margin:40px 0 0px 0;
+    background-color: #398d82;
+    height: 30px;
+    font-size: small;
+    text-align:center;
+    padding-top: 20px;
+}
+
+
+/******************************** CONTACT END ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************ BOXES ************************************/
+
+.box{
+    background-color:rgb(34, 99, 156);
+    width: 300px;
+    height: 300px;
+    border-top: 4px;
+    border-right: 4px;
+    border-left: 30px solid;
+    border-bottom: 30px solid;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.oneB{
+    margin: 0px;    
+    background-color: aqua;
+    border:20px solid black;
+    width: 300px;
+    height: 300px;
+    /* position: relative; */
+    position: absolute;
+    display: inline-block;
+    /* left: 30px;
+    top: 70px; */
+}
+.secB{
+    margin: 0px;
+    background-color: red;
+    border:20px solid black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* position: relative; */
+    display: inline-block;
+    /* margin-left: 340px; */
+    left: 340px;
+}
+.thiB{
+    margin: 0px;   
+    background-color: yellow;
+    border:20px solid black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* position: relative; */
+    display: inline-block;
+    /* margin-left: 680px; */
+    left: 680px;
+}
